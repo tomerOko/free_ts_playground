@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  ty_playground:
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    image: ts_playground:latest
+    build: .
+    container_name: ty_playground_c
+    ports: 
+      - "5000:5000"
+    volumes: 
+      - ./:/app
