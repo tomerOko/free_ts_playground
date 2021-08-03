@@ -19,6 +19,7 @@ go to udemy, install and learn docker, and spare yourself so much suffering :)
 there is nothing to install
 
 ## how to run:
+**0. clone/download
 1. open command line and get into this project (if u are on vs code just click Ctrl+j)
 2. type: sudo docker-compose up --build -d --force-recreate
 3. open the browser on: http://localhost:5000/
